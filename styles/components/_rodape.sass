@@ -1,0 +1,9 @@
+@use '../abstract/variaveis'
+@use '../abstract/mixins'
+
+footer
+    margin-top: 80px
+    background: variaveis.$cor-default
+    text-align: center
+    padding: 1.5rem
+    @include mixins.ff-fs-cl(variaveis.$ft-textos, 1rem, variaveis.$cor-primaria)
